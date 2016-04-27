@@ -1,0 +1,9 @@
+/* 상단메뉴 적용 */ /* 140312 추가 */
+.menuBox {width:972px; margin:0 auto;background:skyblue;height:50px;}
+.menuBox UL {list-style:none; margin:0px; padding:0px; } 
+.menuBox .menu { float:left;height:50px; line-height:50px; background:skyblue; } 
+.menuBox .menu > LI { float:left; width:180px; text-align:center;font-size:16px;font-weight:700;border-right:1px dotted #fff;cursor:pointer; }
+.menuBox .submenuBox { float:left; top:50px; height:0px; width:100%; overflow:hidden; background:gray;} 
+.menuBox .submenu { float:left; width:180px;height:300px;border-right:1px dotted #fff;} 
+.menuBox .submenu > LI { padding-top:15px;padding-bottom:0px; text-align:center; font-size:12px;} 
+.menuBox .submenu > LI a {color:#fff;} 

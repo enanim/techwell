@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 새글 스킨 (latest) */
+.lt_pc {float:left;margin-left:20px}
+.lt {position:relative;float:left;margin-bottom:20px;padding-bottom:10px;width:284px;}/*height:150px;*/
+.lt ul {margin:0 0 10px;padding:0;list-style:none}
+.lt li {padding:3px 0;color:#fff; border-top:1px solid #333}
+.lt li:first-child {padding:3px 0;color:#fff; border-top:0px solid #000}
+.lt li a {color:#fff}
+.lt .lt_more a {
+    position: absolute;
+    top: -57px;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('/skin/latest/pishon_basic/img/main_more.gif') center center no-repeat;
+    /* background-color: #000; */
+}
+
+
+.lt .lt_title {display:block;padding:10px 0 8px}
+.lt .lt_more {position:absolute;top:10px;right:0}
+.lt .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}

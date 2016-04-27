@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Amazon style image and title scroller</title>
+<link href="css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/amazon_scroller.js"></script>
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+$(function() {	
+	$("#amazon_scroller").amazon_scroller({
+		scroller_title_show: 'disable',
+		scroller_time_interval: '3000',
+		scroller_window_background_color: "none",
+		scroller_window_padding: '10',
+		scroller_border_size: '0',
+		scroller_border_color: '#CCC',
+		scroller_images_width: '100',
+		scroller_images_height: '80',
+		scroller_title_size: '12',
+		scroller_title_color: 'black',
+		scroller_show_count: '2',
+		directory: 'images'
+	});
+});
+</script>
+<div id="amazon_scroller" class="amazon_scroller">
+	<div class="amazon_scroller_mask">
+		<ul>
+			<li><a href="link1" title="title1"><img src="images/scroller_large_1.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link2" title="title2"><img src="images/scroller_large_2.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link3" title="title3"><img src="images/scroller_large_3.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link4" title="title4"><img src="images/scroller_large_4.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link1" title="title5"><img src="images/scroller_large_1.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link2" title="title6"><img src="images/scroller_large_2.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link3" title="title7"><img src="images/scroller_large_3.jpg" width="60" height="60" alt="title"/></a></li>
+			<li><a href="link4" title="title8"><img src="images/scroller_large_4.jpg" width="60" height="60" alt="title"/></a></li>
+		</ul>
+	</div>
+	<ul class="amazon_scroller_nav">
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+</body>
+</html>

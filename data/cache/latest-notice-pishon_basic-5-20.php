@@ -1,0 +1,83 @@
+<?php
+if (!defined('_GNUBOARD_')) exit;
+$bo_subject='Notice';
+$list=array (
+  0 => 
+  array (
+    'wr_id' => '8',
+    'wr_num' => '-1',
+    'wr_reply' => '',
+    'wr_parent' => '8',
+    'wr_is_comment' => '0',
+    'wr_comment' => '0',
+    'wr_comment_reply' => '',
+    'ca_name' => '',
+    'wr_option' => 'html1',
+    'wr_subject' => '홈페이지 오픈 준비중 입니다.',
+    'wr_content' => '<p>홈페이지 오픈 준비중 입니다.&nbsp;</p>',
+    'wr_link1' => '',
+    'wr_link2' => '',
+    'wr_link1_hit' => '0',
+    'wr_link2_hit' => '0',
+    'wr_hit' => '132',
+    'wr_good' => '0',
+    'wr_nogood' => '0',
+    'mb_id' => 'admin',
+    'wr_password' => '*BCDB46F9759BC3C7C2679D4E81145B53EE616059',
+    'wr_name' => 'PISHON',
+    'wr_email' => 'proit_pishonenter@pishonenter.proit.gethompy.com',
+    'wr_homepage' => '',
+    'wr_datetime' => '2016-01-04 16:48:11',
+    'wr_file' => '0',
+    'wr_last' => '2016-01-04 16:48:11',
+    'wr_ip' => '60.196.80.29',
+    'wr_facebook_user' => '',
+    'wr_twitter_user' => '',
+    'wr_1' => '',
+    'wr_2' => '',
+    'wr_3' => '',
+    'wr_4' => '',
+    'wr_5' => '',
+    'wr_6' => '',
+    'wr_7' => '',
+    'wr_8' => '',
+    'wr_9' => '',
+    'wr_10' => '',
+    'is_notice' => false,
+    'subject' => '홈페이지 오픈 준비중 입니다.',
+    'comment_cnt' => '',
+    'datetime' => '2016-01-04',
+    'datetime2' => '01-04',
+    'last' => '2016-01-04',
+    'last2' => '01-04',
+    'name' => '<span class="sv_member">PISHON</span>',
+    'reply' => 0,
+    'icon_reply' => '',
+    'icon_link' => '',
+    'ca_name_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=notice&amp;sca=',
+    'href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=notice&amp;wr_id=8',
+    'comment_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=notice&amp;wr_id=8',
+    'icon_new' => '',
+    'icon_hot' => '<img src="http://techwell.proit.gethompy.com/skin/latest/pishon_basic/img/icon_hot.gif" alt="인기글">',
+    'icon_secret' => '',
+    'link' => 
+    array (
+      1 => NULL,
+      2 => NULL,
+    ),
+    'link_href' => 
+    array (
+      1 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=notice&amp;wr_id=8&amp;no=1',
+      2 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=notice&amp;wr_id=8&amp;no=2',
+    ),
+    'link_hit' => 
+    array (
+      1 => 0,
+      2 => 0,
+    ),
+    'file' => 
+    array (
+      'count' => '0',
+    ),
+  ),
+)?>
