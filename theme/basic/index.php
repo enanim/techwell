@@ -24,8 +24,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.goods_photo img').mouseover(function() {
-				$(this).fadeTo(0,0.60);
-			
+				$(this).fadeTo(0,0.60);	
 	 
 			});
 			$('.goods_photo img').mouseout(function() {
@@ -34,7 +33,6 @@ include_once(G5_THEME_PATH.'/head.php');
 			});
 		});
 	</script>
-	
 	<link rel="stylesheet" href="/layerslider/css/layerslider.css" type="text/css">
 	
 	<script src="/layerslider/js/greensock.js" type="text/javascript"></script>
@@ -65,6 +63,7 @@ include_once(G5_THEME_PATH.'/head.php');
 </section>
 
 	<script type="text/javascript">
+		/*
 		$(document).ready(function(){
 			$('#layerslider').layerSlider({
 				navPrevNext: false,
@@ -79,6 +78,7 @@ include_once(G5_THEME_PATH.'/head.php');
 				thumbnailNavigation: 'disabled'
 			});
 		});
+		*/
 	</script>
 <!--
 	<div style="margin:0 auto; text-align:center; position:relative; width:1120px;">
