@@ -16,16 +16,17 @@ if(G5_COMMUNITY_USE === false) {
 <hr>
 
 <div id="ft">
-    <?php echo popular('theme/basic'); // 인기검색어 ?>
-    <?php echo visit('theme/basic'); // 방문자수 ?>
+
     <div id="ft_copy">
-        <div id="ft_company">
+        <div id="ft_company" style="display:none">
             <a href="<?php echo G5_BBS_URL; ?>/content.php?co_id=company">회사소개</a>
-            <a href="<?php echo G5_BBS_URL; ?>/content.php?co_id=privacy">개인정보취급방침</a>
-            <a href="<?php echo G5_BBS_URL; ?>/content.php?co_id=provision">서비스이용약관</a>
+            <a href="<?php echo G5_BBS_URL; ?>/content.php?co_id=privacy">오시는길</a>
+            
         </div>
-        Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.<br>
-        <a href="#">상단으로</a>
+        Copyright  <b>&#40;주&#41;테크웰</b> All rights reserved.<br>
+        <span>경기도 수원시 권선구 서부로 1433-20(고색동) 4층 441-813</span><br>
+        <span>TEL : 070-5014-5001</span><span>FAX : 031-227-5276</span><br>
+        
     </div>
 </div>
 

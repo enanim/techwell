@@ -44,7 +44,7 @@ $(function() {
 			$('#slider_bullet').append('<a href="#" '+active+'></a>');
 		}
 	$(window).bind('load resize',function(){
-		var ww = $('#main_banner').width();
+		var ww = $('#main_banner').width(1200); //width 숫자 넣어주기
 		$('#main_banner').css({marginLeft:-0.5*ww});
 		
 		$('#slider img').width(ww);

@@ -68,5 +68,6 @@ else
 				<?php if ($bo_table != '' OR $fm_id != '' OR strpos($_SERVER['PHP_SELF'], 'map.php') > -1 OR strpos($_SERVER['PHP_SELF'], 'bbs/s') > -1) {?>
 				<div class="sub_body_title">
 					<h3><?php echo $kTitle1?></h3><span class="page_location">홈 &gt; <strong><?php echo $kTitle1?></strong></span>
+                    
 				</div>
 				<?php }?>

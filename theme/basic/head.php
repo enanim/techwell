@@ -164,8 +164,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                         else{
                         ?>
                         <div class="submenu hidden" id="submenu-top_menu_0<?php echo $j?>">
-                            <div class="grid_9 alpha" style="padding-left:<?php echo $alpha?>px">
-                                <div class="border-left-grey p-left-20">1111111
+                        	<!-- <div class="grid_9 alpha" style="padding-left:<<!--?php echo $alpha?>px">--> 
+                            <div class="grid_9 alpha">
+                                <div class="border-left-grey p-left-20">
                                 <?php
                                 
                                 $sql2 = " select *
@@ -179,7 +180,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 
                                 for ($k=0,$l=1; $row2=sql_fetch_array($result2); $k++,$l++) {
                                 ?>
-                                    <span class="level-2"><a href="<?php echo $row2['me_link']; ?>"  class="menu-item std level-2 ">22222222<?php echo $row2['me_name'] ?></a></span>
+                                    <span class="level-2"><a href="<?php echo $row2['me_link']; ?>"  class="menu-item std level-2 "><?php echo $row2['me_name'] ?></a></span>
                                  <?php
                                  }
                                 ?>
@@ -245,11 +246,18 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <div id="page_wrap">
     
 <!-- 콘텐츠 시작 -->
-<?php if ($co_id == 'Aboutus' OR $co_id == 'Aboutus02' OR $co_id == 'about01_02' OR $bo_table == 'notice' OR $bo_table == 'contact' OR $kLeft == 1) {?>
-        <div class="sub_visual_wrap <?php echo $co_id == 'Aboutus' ? 'visual_on' :''?> visual_on_01"></div>
-        <div class="sub_visual_wrap <?php echo $co_id == 'about01_00' ? 'visual_on' :''?> visual_on_02"></div>
-        <div class="sub_visual_wrap <?php echo $bo_table == 'contact' ? 'visual_on' :''?> visual_on_03"></div>
-        <div class="sub_visual_wrap <?php echo $bo_table == 'notice' ? 'visual_on' :''?> visual_on_04"></div>
+<?php if ($co_id == 'about01' OR $co_id == 'about02' OR $co_id == 'about03' OR $co_id == 'about04' OR $co_id == 'about05' OR $co_id == 'about06' OR $co_id == 'facilities' OR $co_id == 'product' OR $bo_table == 'notice' OR $bo_table == 'facilities' OR $bo_table == 'facilities' OR $bo_table == 'notice' OR $bo_table == 'onlineqna' OR $kLeft == 1) {?>
+        <div class="visual_on <?php echo $co_id == 'about01' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'about02' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'about03' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'about04' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'about05' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'about06' ? 'visual_on_01' :''?>"></div>
+		<div class="visual_on <?php echo $co_id == 'product' ? 'visual_on_02' :''?>"></div>
+		<div class="visual_on <?php echo $bo_table == 'facilities' ? 'visual_on_05' :''?>"></div>
+		<div class="visual_on <?php echo $bo_table == 'notice' ? 'visual_on_03' :''?>"></div>
+		<div class="visual_on <?php echo $bo_table == 'onlineqna' ? 'visual_on_04' :''?>"></div>
+        
 <?php }?>
 <div id="<?php echo defined("_INDEX_") ? 'main_wrapper' : 'wrapper'?>">
 

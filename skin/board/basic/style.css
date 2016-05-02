@@ -35,13 +35,13 @@
 /* 목록 테이블 */
 #bo_list .tbl_head01 {}
 #bo_list .tbl_head01 caption {}
-#bo_list .tbl_head01 thead th { background: none !important; border-top:2px solid #88731f; border-bottom:1px solid #88731f; color:#999}
-#bo_list .tbl_head01 thead a { color:#999 }
+#bo_list .tbl_head01 thead th { background: none !important; border-top:2px solid #1976a8; border-bottom:1px solid #1976a8; color:#1976a8}
+#bo_list .tbl_head01 thead a { color:#1976a8 }
 #bo_list .tbl_head01 thead th input {} /* middle 로 하면 게시판 읽기에서 목록 사용시 체크박스 라인 깨짐 */
 #bo_list .tbl_head01 tfoot th {}
 #bo_list .tbl_head01 tfoot td {}
 #bo_list .tbl_head01 tbody th {}
-#bo_list .tbl_head01 td { background: none !important; border-top:2px solid #625e5e; border-bottom:1px solid #625e5e; color:#999 }
+#bo_list .tbl_head01 td { background: none !important; border-top:1px solid #1976a8; border-bottom:1px solid #bfbfbf; color:#999 }
 #bo_list .tbl_head01 a {}
 #bo_list td.empty_table {}
 

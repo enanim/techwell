@@ -35,21 +35,21 @@ a:hover, a:focus, a:active {color:#000;text-decoration:underline}
 #hd:after {display:block;visibility:hidden;clear:both;content:""}
 #hd_h1 {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
 
-#logo {padding:15px 10px}
+#logo {padding:15px 10px; width:40%;}
 
-#gnb_open {position:absolute;top:10px;right:60px;padding:0 10px;height:2.6em;border:0;background:#333;color:#fff;font-size:1em;letter-spacing:-0.1em}
-#gnb {display:none;background:#282828}
-#gnb a {display:block;color:#efefef}
-.gnb_1da {padding:10px;border-top:1px solid #191919}
-.gnb_2dul {background:#383838}
-.gnb_2da {padding:10px;border-top:1px solid #282828}
+#gnb_open {position:absolute;top:17px;right:10px;padding:0 10px;height:2.6em;border:0;background:#1976a8;color:#fff;font-size:1em;letter-spacing:-0.1em}
+#gnb {display:none;background:#174871}
+#gnb a {display:block;color:#fff;}
+.gnb_1da {padding:10px;border-top:1px solid #fff}
+.gnb_2dul {background:#1976a8}
+.gnb_2da {padding:10px;border-top:1px solid #fff}
 .gnb_2da span:before {display:inline-block;margin:0 10px 0 0;color:#666;content:'▶'}
-#gnb_close {display:block;margin:0;padding:10px 0;width:100%;border:0;background:#000;color:#fff}
+#gnb_close {display:block;margin:0;padding:10px 0;width:100%;border:0;background:#174871;color:#fff}
 
 #gnb_empty {padding:20px 0;color:#fff;text-align:center;line-height:2em}
 #gnb_empty a {display:inline;text-decoration:underline}
 
-#hd_sch_open {position:absolute;top:10px;right:10px;padding:0 10px;height:2.6em;border:0;background:#333;color:#fff;font-size:1em;letter-spacing:-0.1em}
+#hd_sch_open {position:absolute;top:17px;right:10px;padding:0 10px;height:2.6em;border:0;background:#eee;color:#1976a8;font-size:1em;letter-spacing:-0.1em; display:none;}
 #hd_sch {display:none;border-top:1px solid #181818;background:#282828;text-align:center}
 #hd_sch h2 {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
 #hd_sch form {position:relative;padding:30px 0}
@@ -57,10 +57,10 @@ a:hover, a:focus, a:active {color:#000;text-decoration:underline}
 #hd_sch #sch_submit {margin:0;padding:0 10px;height:32px;border:0;background:#000;color:#fff;vertical-align:middle}
 #hd_sch #sch_close {display:block;margin:0;padding:10px 0;width:100%;border:0;background:#000;color:#fff}
 
-#hd_nb {clear:both;background:#ecf0f7;text-align:center}
-#hd_nb li {display:inline-block}
+#hd_nb {clear:both;background:url(../img/mobile/mobile_gnb_bg.png) repeat-x;text-align:center; height:5px;  color:#FFF;}
+#hd_nb li {display:inline-block; display:none}
 #hd_nb li:nth-last-of-type(1) {border-right:0 !important}
-#hd_nb a {display:inline-block;padding:10px 7px;text-decoration:none}
+#hd_nb a {display:inline-block;padding:15px 7px;text-decoration:none; color:#fff;}
 
 #lnb {}
 #lnb ul {margin:0;padding:0;border-bottom:1px solid #e7f1ed;list-style:none}
@@ -70,25 +70,25 @@ a:hover, a:focus, a:active {color:#000;text-decoration:underline}
 #lnb li:nth-of-type(4n) a {border-right:0}
 
 /* 중간 레이아웃 */
-#wrapper {margin:20px 0}
+#wrapper {margin:0px 0}
 #wrapper:after {display:block;visibility:hidden;clear:both;content:""}
 
 #container {position:relative;min-height:300px}
 #container:after {display:block;visibility:hidden;clear:both;content:""}
-#container_title {margin:0 10px 20px;font-size:1.2em;font-weight:bold}
+#container_title {margin:20px 10px 20px 10px;font-size:1.5em; color:#535353; font-weight:400;}
 
 /* 텍스트 크기 조절 */
 #text_size {margin:0 0 10px;text-align:center}
-#text_size button {margin:0;padding:2px 2px 1px;border:1px solid #c3c6ca;background:transparent;vertical-align:middle}
+#text_size button {margin:0;padding:2px 2px 1px; background:transparent;vertical-align:middle}
 .ts_up {font-size:1.167em !important}
 .ts_up2 {font-size:1.3em !important}
 
 /* 하단 레이아웃 */
-#ft {;border-top:1px solid #dde4e9;background:#f2f5f9}
+#ft {background:#eeeeee; color:#535353;}
 #ft h1 {width:0;height:0;font-size:0;line-height:0;overflow:hidden}
 #ft p {margin:0;padding:10px 0;line-height:1.8em}
 
-#ft_copy {padding:10px;background:#414141;color:#fff;line-height:2em}
+#ft_copy {padding:10px;line-height:2em; text-align:center; font-size:0.8em;}
 #ft_copy #ft_company {text-align:center}
 #ft_copy #ft_company a {display:inline-block;padding:5px 10px}
 #ft_copy b {color:inherit}

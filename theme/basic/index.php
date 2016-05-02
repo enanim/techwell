@@ -24,7 +24,8 @@ include_once(G5_THEME_PATH.'/head.php');
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.goods_photo img').mouseover(function() {
-				$(this).fadeTo(0,0.60);	
+				$(this).fadeTo(0,0.60);
+			
 	 
 			});
 			$('.goods_photo img').mouseout(function() {
@@ -63,7 +64,7 @@ include_once(G5_THEME_PATH.'/head.php');
 </section>
 
 	<script type="text/javascript">
-		/*
+	/*
 		$(document).ready(function(){
 			$('#layerslider').layerSlider({
 				navPrevNext: false,
@@ -91,81 +92,81 @@ include_once(G5_THEME_PATH.'/head.php');
 	</div>
 </div>
 -->
+	
+	<!--  메인슬라이드 -->
 	<script src="/theme/basic/html/js/layout.js"></script>
     
-    <div id="main_banner_height" style="position:relative;">
-		<div id="main_banner" style="margin-left: -1000px; height: 372px;">
-		<div id="slider" style="left: -100%;"> <a href=""><img src="/theme/basic/img/main/main_visual_00.png" alt="" title="" style="width: 2000px;"></a> <a href=""><img src="/theme/basic/img/main/main_visual_00.png" alt="" title="" style="width: 2000px;"></a> <a href=""><img src="/theme/basic/img/main/main_visual_00.png" alt="" style="width: 2000px;"></a></div>
-		<div id="slider_bullet"> <a href="#" class=""></a><a href="#" class="active"></a><a href="#"></a></div>
+    <div id="main_banner_height" style="">
+		<div id="main_banner">
+			<div id="slider"> 
+        	<a href=""><img src="/theme/basic/img/main/main_visual_01.png"></a> 
+            <a href=""><img src="/theme/basic/img/main/main_visual_02.png"></a> 
+            <a href=""><img src="/theme/basic/img/main/main_visual_03.png"></a>
+        	</div>
+			<div id="slider_bullet"></div>
 	  </div>
-	  <div id="slider_controller" style="height: 372px;"> <a href="#" id="prev_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_prev.png" alt=""></a> <a href="#" id="next_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_next.png" alt="" title=""></a> </div>
+	  <div id="slider_controller" style="height: 372px;"> 
+      	<a href="#" id="prev_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_prev.png" alt=""></a>
+        <a href="#" id="next_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_next.png" alt="" title=""></a> 
+      </div>
 	 
-  </div>
+    </div>
 <!-- } 메인이미지 끝 -->
 
 <div class="main_banner_wrap">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-	<tr>
-		<td valign="top">
-	        <img src="/theme/basic/img/main_title_01.png" />
-	        <div style="width:275px;margin-top:20px;">
-                <?php
-                echo latest("pishon_basic", 'notice', 5, 20);
-                ?>
-            </div>
-        </td>
-		<td valign="top">
-		    <img src="/theme/basic/img/main_title_02.png" />
-		    <div style="width:275px;margin-top:20px;">
-                <?php
-                echo latest("scroller", 'release', 5, 20);
-                ?>
-            </div>
-		</td>
-		<td valign="top">
-			<div>
-			    <img src="/theme/basic/img/main_title_04.png" />
-			    <div style="width:200px;margin-top:20px;">
-                <?php
-                echo latest("scroller_1", 'media', 5, 20);
-                ?>
-			</div>			
-		</td>
-		<td align="right" valign="top" style="padding-top:10px; display:none">
-			<a href="/bbs/board.php?bo_table=AuditionNotice"><img src="/theme/basic/img/main_banner01.png" style="margin-bottom:10px; display:block" /></a>
-			<a href="/bbs/board.php?bo_table=talk"><img src="/theme/basic/img/main_banner02.png" /></a>
-		</td>
-	</tr>
-</table>
-<div style="border-top:1px dashed #333; margin:20px 0 20px; display:none"></div>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
-	<tr>
-		<td valign="top">
-	        <img src="/theme/basic/img/main_title_04.png" />
-	        <div style="width:250px;margin-top:20px;">
-                <?php
-                echo latest("pishon_basic", 'media', 5, 20);
-                ?>
-            </div>
-        </td>
-		<td valign="top">
-		    <img src="/theme/basic/img/main_title_05.png" />
-		    <div style="width:250px;margin-top:20px;">
-                <?php
-                echo latest("pishon_basic", 'talk', 5, 20);
-                ?>
-            </div>
-		</td>
-		<td valign="top">
-			<div>
-			    <img src="/theme/basic/img/main_title_06.png" />
-			    <div style="width:250px;margin-top:20px;">
-					<img src="/theme/basic/img/index_business.png" border="0" usemap="#Map" />
-				</div>
-			</div>			
-		</td>
-	</tr>
-</table>
+    <table width="20%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td style="padding-left:25px;">
+                <img src="/theme/basic/img/main/main_h3.png" />
+                <div style="width:300px;margin-top:30px;">
+                    <?php
+                    echo latest("pishon_basic", 'notice', 4, 20);
+                    ?>
+                </div>
+            </td>
+            <td>
+            <div class="right_btn">
+   
+                <ul>
+                   <li><a href="/bbs/content.php?co_id=product"><img src="/theme/basic/img/main/main_btn_01.png" /></a></li>
+                   <li><a href="/bbs/board.php?bo_table=facilities&wr_id=2"><img src="/theme/basic/img/main/main_btn_02.png" /></a></li>
+                   <li><a href="/bbs/board.php?bo_table=notice"><img src="/theme/basic/img/main/main_btn_03.png" /></a></li>
+                </ul>			
+
+    		</div>
+            </td>
+        </tr>
+    </table>
+    	
+	<div style="border-top:1px dashed #333; margin:20px 0 20px; display:none"></div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+        <tr>
+            <td valign="top">
+                <img src="/theme/basic/img/main_title_04.png" />
+                <div style="width:250px;margin-top:20px;">
+                    <?php
+                    echo latest("pishon_basic", 'media', 5, 20);
+                    ?>
+                </div>
+            </td>
+            <td valign="top">
+                <img src="/theme/basic/img/main_title_05.png" />
+                <div style="width:250px;margin-top:20px;">
+                    <?php
+                    echo latest("pishon_basic", 'talk', 5, 20);
+                    ?>
+                </div>
+            </td>
+            <td valign="top">
+                <div>
+                    <img src="/theme/basic/img/main_title_06.png" />
+                    <div style="width:250px;margin-top:20px;">
+                        <img src="/theme/basic/img/index_business.png" border="0" usemap="#Map" />
+                    </div>
+                </div>			
+            </td>
+        </tr>
+    </table>
 </div>
 
 

@@ -22,8 +22,14 @@ if(G5_COMMUNITY_USE === false) {
 <!-- 하단 시작 { -->
 <div id="ft">
     <div id="ft_catch">
-		<div class="foot_nav" style="display:none">
-			<span><a href="#">이용약관</a></span><span><a href="#">개인정보보호정책</a></span>
+		<div class="foot_nav" style="text-align:center">
+        	<span style="margin-right:40px;"><a href="/bbs/content.php?co_id=about01" >회사소개</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/content.php?co_id=product" >제품소개</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/board.php?bo_table=facilities&wr_id=2" >시설현황</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/write.php?bo_table=onlineqna" >온라인문의</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/write.php?bo_table=onlineqna" >온라인문의</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/board.php?bo_table=notice" >테크웰소식</a></span>
+
 		</div>
 		<div class="foot_logo"><img src="/theme/basic/img/foot_logo.png" alt="pishon" /></div>
 		<div id="ft_copy">

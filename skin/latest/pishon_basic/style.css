@@ -5,9 +5,9 @@
 .lt_pc {float:left;margin-left:20px}
 .lt {position:relative;float:left;margin-bottom:20px;padding-bottom:10px;width:284px;}/*height:150px;*/
 .lt ul {margin:0 0 10px;padding:0;list-style:none}
-.lt li {padding:3px 0;color:#fff; border-top:1px solid #333}
-.lt li:first-child {padding:3px 0;color:#fff; border-top:0px solid #000}
-.lt li a {color:#fff}
+.lt li {padding:3px 0;color:#fff; padding-bottom:3px;}
+.lt li:first-child {padding:3px 0;color:#fff; /*border-top:0px solid #000*/ padding-bottom:3px;}
+.lt li a {color:#6e6e6e;}
 .lt .lt_more a {
     position: absolute;
     top: -57px;
