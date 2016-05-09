@@ -19,7 +19,7 @@ $list=array (
     'wr_link2' => '',
     'wr_link1_hit' => '0',
     'wr_link2_hit' => '0',
-    'wr_hit' => '19',
+    'wr_hit' => '30',
     'wr_good' => '0',
     'wr_nogood' => '0',
     'mb_id' => 'admin',
@@ -54,9 +54,9 @@ $list=array (
     'reply' => 0,
     'icon_reply' => '',
     'icon_link' => '',
-    'ca_name_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=facilities&amp;sca=',
-    'href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=facilities&amp;wr_id=2',
-    'comment_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=facilities&amp;wr_id=2',
+    'ca_name_href' => 'http://m2gym.kr/bbs/board.php?bo_table=facilities&amp;sca=',
+    'href' => 'http://m2gym.kr/bbs/board.php?bo_table=facilities&amp;wr_id=2',
+    'comment_href' => 'http://m2gym.kr/bbs/board.php?bo_table=facilities&amp;wr_id=2',
     'icon_new' => '',
     'icon_hot' => '',
     'icon_secret' => '',
@@ -67,8 +67,8 @@ $list=array (
     ),
     'link_href' => 
     array (
-      1 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=facilities&amp;wr_id=2&amp;no=1',
-      2 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=facilities&amp;wr_id=2&amp;no=2',
+      1 => 'http://m2gym.kr/bbs/link.php?bo_table=facilities&amp;wr_id=2&amp;no=1',
+      2 => 'http://m2gym.kr/bbs/link.php?bo_table=facilities&amp;wr_id=2&amp;no=2',
     ),
     'link_hit' => 
     array (
@@ -79,6 +79,6 @@ $list=array (
     array (
       'count' => '5',
     ),
-    'icon_file' => '<img src="http://techwell.proit.gethompy.com/theme/basic/mobile/skin/latest/basic/img/icon_file.gif" alt="첨부파일">',
+    'icon_file' => '<img src="http://m2gym.kr/theme/basic/mobile/skin/latest/basic/img/icon_file.gif" alt="첨부파일">',
   ),
 )?>

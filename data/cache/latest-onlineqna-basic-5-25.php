@@ -54,9 +54,9 @@ $list=array (
     'reply' => 0,
     'icon_reply' => '',
     'icon_link' => '',
-    'ca_name_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;sca=',
-    'href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;wr_id=2',
-    'comment_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;wr_id=2',
+    'ca_name_href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;sca=',
+    'href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;wr_id=2',
+    'comment_href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;wr_id=2',
     'icon_new' => '',
     'icon_hot' => '',
     'icon_secret' => '',
@@ -67,8 +67,8 @@ $list=array (
     ),
     'link_href' => 
     array (
-      1 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=onlineqna&amp;wr_id=2&amp;no=1',
-      2 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=onlineqna&amp;wr_id=2&amp;no=2',
+      1 => 'http://m2gym.kr/bbs/link.php?bo_table=onlineqna&amp;wr_id=2&amp;no=1',
+      2 => 'http://m2gym.kr/bbs/link.php?bo_table=onlineqna&amp;wr_id=2&amp;no=2',
     ),
     'link_hit' => 
     array (
@@ -132,9 +132,9 @@ $list=array (
     'reply' => 0,
     'icon_reply' => '',
     'icon_link' => '',
-    'ca_name_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;sca=',
-    'href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;wr_id=1',
-    'comment_href' => 'http://techwell.proit.gethompy.com/bbs/board.php?bo_table=onlineqna&amp;wr_id=1',
+    'ca_name_href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;sca=',
+    'href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;wr_id=1',
+    'comment_href' => 'http://m2gym.kr/bbs/board.php?bo_table=onlineqna&amp;wr_id=1',
     'icon_new' => '',
     'icon_hot' => '',
     'icon_secret' => '',
@@ -145,8 +145,8 @@ $list=array (
     ),
     'link_href' => 
     array (
-      1 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=onlineqna&amp;wr_id=1&amp;no=1',
-      2 => 'http://techwell.proit.gethompy.com/bbs/link.php?bo_table=onlineqna&amp;wr_id=1&amp;no=2',
+      1 => 'http://m2gym.kr/bbs/link.php?bo_table=onlineqna&amp;wr_id=1&amp;no=1',
+      2 => 'http://m2gym.kr/bbs/link.php?bo_table=onlineqna&amp;wr_id=1&amp;no=2',
     ),
     'link_hit' => 
     array (
