@@ -144,7 +144,7 @@
 /* 게시판 읽기 */
 #bo_v {margin-bottom:15px;padding-bottom:15px}
 
-#bo_v_table {padding:0 10px;color:#999;font-size:0.9em;font-weight:bold}
+#bo_v_table {padding:0 10px;color:#fff;font-size:0.9em;font-weight:bold; border-bottom:1px dashed #999; padding-bottom:10px;}
 
 #bo_v_title {padding:0 10px 5px;font-size:1.2em}
 
@@ -205,7 +205,7 @@
 #bo_v_sns li {float:left;margin:0 5px 0 0}
 
 /* 게시판 댓글 */
-#bo_vc {margin:0 0 20px;padding:20px 10px 10px;border:1px solid #e5e8ec;background:#f5f8f9}
+#bo_vc {margin:0 0 20px;padding:20px 10px 10px;border:1px solid #e5e8ec; color:#fff;}
 #bo_vc h2 {margin-bottom:5px}
 #bo_vc article {padding:0 0 5px;border-top:1px dotted #ccc}
 #bo_vc header {position:relative;padding:13px 0 5px}
@@ -220,7 +220,7 @@
 #bo_vc_empty {margin:0;padding:15px !important;text-align:center}
 #bo_vc #bo_vc_winfo {float:left}
 #bo_vc footer {zoom:1}
-#bo_vc footer:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_vc footer:after {display:block;visibility:hidden;clear:both;content:""; color:#fff;}
 
 .bo_vc_act {float:right;margin:0;list-style:none}
 .bo_vc_act:after {display:block;visibility:hidden;clear:both;content:""}

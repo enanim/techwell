@@ -35,13 +35,14 @@
 /* 목록 테이블 */
 #bo_list .tbl_head01 {}
 #bo_list .tbl_head01 caption {}
-#bo_list .tbl_head01 thead th { background: none !important; border-top:2px solid #1976a8; border-bottom:1px solid #1976a8; color:#1976a8}
-#bo_list .tbl_head01 thead a { color:#1976a8 }
+#bo_list .tbl_head01 thead th { background: none !important; border-top:2px solid #f4cd20; border-bottom:2px solid #f4cd20; color:#f4cd20}
+#bo_list .tbl_head01 thead a { color:#f4cd20 }
 #bo_list .tbl_head01 thead th input {} /* middle 로 하면 게시판 읽기에서 목록 사용시 체크박스 라인 깨짐 */
 #bo_list .tbl_head01 tfoot th {}
 #bo_list .tbl_head01 tfoot td {}
 #bo_list .tbl_head01 tbody th {}
-#bo_list .tbl_head01 td { background: none !important; border-top:1px solid #1976a8; border-bottom:1px solid #bfbfbf; color:#999 }
+#bo_list .tbl_head01 td { background: none !important; border-bottom:1px solid #fff; color:#999 }
+#bo_list .tbl_head01 td:first-child {}
 #bo_list .tbl_head01 a {}
 #bo_list td.empty_table {}
 
@@ -158,7 +159,16 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 /* 게시판 읽기 */
 #bo_v {margin-bottom:20px;padding-bottom:20px}
 
-#bo_v_table {position:absolute;top:0;right:16px;margin:0;padding:0 5px;height:25px;background:#ff3061;color:#fff;font-weight:bold;line-height:2.2em}
+#bo_v_table {margin-bottom: 20px;
+    font-size: 2.2em;
+    font-weight: 400;
+    padding: 20px 0 20px 0;
+    margin-top: 10px;
+    color: #fff;
+    background:url(../../../theme/basic/img/sub/sub_contents_bullet01.gif) no-repeat top left;
+	border-bottom:1px dashed #fff;
+	}
+	
 
 #bo_v_title {padding:10px 0;font-size:1.2em}
 
@@ -224,7 +234,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 #bo_v_sns li {float:left;margin:0 5px 0 0}
 
 /* 게시판 댓글 */
-#bo_vc {margin:0 0 20px;padding:20px 20px 10px;border:1px solid #e5e8ec;background:#f5f8f9}
+#bo_vc {margin:0 0 20px;padding:20px 20px 10px;border:1px solid #e5e8ec;}
 #bo_vc h2 {margin-bottom:10px}
 #bo_vc article {padding:0 0 10px;border-top:1px dotted #ccc}
 #bo_vc header {position:relative;padding:15px 0 5px}

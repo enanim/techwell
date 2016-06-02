@@ -32,10 +32,51 @@ include_once(G5_THEME_PATH.'/head.php');
 				$(this).fadeTo(0,6);
 		
 			});
+
+            		//상담신청 버튼
+			$('p.btn_submit').on('click',function (){
+                $('#name').val($.trim($('#name').val()));
+                $('#mobile_num').val($.trim($('#mobile_num').val()));
+                if(!$('#name').val()){alert('고객명을 입력해 주세요');$('#name').focus();return false;}
+                if($('#name').val().length < 2){alert('고객명을 정확히 입력해 주세요');$('#name').focus();return false;}
+                if(!$('#mobile_num').val()){alert('연락처를 입력해 주세요');$('#mobile_num').focus();return false;}
+                if($('#mobile_num').val().length < 11){alert('연락처를 정확히 입력해 주세요');$('#mobile_num').focus();return false;}
+                if(!/^[0-9-+]+$/.test($('#mobile_num').val())){alert('연락처를 정확히 입력해 주세요 (숫자,- 사용가능)');$('#mobile_num').focus();return false;}
+                $.ajax({
+                    type: "post",
+                    url: "/bbs/write_update.php",
+                    data: {
+                        uid: "<?php echo get_uniqid(); ?>" ,
+                        w: "" ,
+                        bo_table: "councelling",
+                        wr_id: "0",
+                        sca: "",
+                        sfl: "",
+                        stx: "",
+                        spt: "",
+                        sst: "",
+                        sod: "",
+                        page: "",
+                        wr_name: $('#name').val(),
+                        wr_subject: $('#name').val() + "(" + $('#mobile_num').val() + ")님이 문자 상담을 요청 하셧습니다.",
+                        wr_content: $('#name').val() + "(" + $('#mobile_num').val() + ")님이 문자 상담을 요청 하셧습니다.",
+                        wr_link1: "",
+                        wr_link2: ""
+                    }
+                 }).done(function( msg ) {
+                    var title = msg.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+                    var pattern = new RegExp("오류");
+                    (pattern.test(title))?alert('오류가 발생했습니다.'):alert('문자 상담을 요청 했습니다.');
+                    $('#name').val('');
+                    $('#mobile_num').val('');
+                });
+            });
+
+
 		});
 	</script>
 	<link rel="stylesheet" href="/layerslider/css/layerslider.css" type="text/css">
-	
+
 	<script src="/layerslider/js/greensock.js" type="text/javascript"></script>
 	
 	<!-- LayerSlider script files -->
@@ -96,47 +137,71 @@ include_once(G5_THEME_PATH.'/head.php');
 	<!--  메인슬라이드 -->
 	<script src="/theme/basic/html/js/layout.js"></script>
     
-    <div id="main_banner_height" style="">
+    <div id="main_banner_height" style="height: 372px;">
 		<div id="main_banner">
-			<div id="slider"> 
-        	<a href=""><img src="/theme/basic/img/main/main_visual_01.png"></a> 
-            <a href=""><img src="/theme/basic/img/main/main_visual_02.png"></a> 
-            <a href=""><img src="/theme/basic/img/main/main_visual_03.png"></a>
+			<div id="slider">
+        	    <a href="#;"><img src="/theme/basic/img/main/main_visual_01.jpg"></a>
+                <a href="#;"><img src="/theme/basic/img/main/main_visual_02.jpg"></a>
+                <a href="/bbs/board.php?bo_table=event&wr_id=1"><img src="/theme/basic/img/main/main_visual_03.jpg"></a>
         	</div>
 			<div id="slider_bullet"></div>
-	  </div>
-	  <div id="slider_controller" style="height: 372px;"> 
-      	<a href="#" id="prev_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_prev.png" alt=""></a>
-        <a href="#" id="next_btn" style="margin-top: 148px;"><img src="/theme/basic/img/main/slide_next.png" alt="" title=""></a> 
-      </div>
-	 
+         </div>
+        <img id="prev_btn" src="/theme/basic/img/main/slide_prev.png" alt="" style="position: relative; cursor: pointer;">
+        <img id="next_btn" src="/theme/basic/img/main/slide_next.png" alt="" style="position: relative; cursor: pointer;">
     </div>
-<!-- } 메인이미지 끝 -->
+<!--  메인이미지 끝 -->
 
 <div class="main_banner_wrap">
-    <table width="20%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td style="padding-left:25px;">
-                <img src="/theme/basic/img/main/main_h3.png" />
-                <div style="width:300px;margin-top:30px;">
-                    <?php
+
+	<ul>
+    	<li class="news">
+        	<h2><img src="/theme/basic/img/main/h2_01.png" /></h2>
+            <ul>
+            	<li>
+                	<?php
                     echo latest("pishon_basic", 'notice', 4, 20);
                     ?>
-                </div>
-            </td>
-            <td>
-            <div class="right_btn">
-   
-                <ul>
-                   <li><a href="/bbs/content.php?co_id=product"><img src="/theme/basic/img/main/main_btn_01.png" /></a></li>
-                   <li><a href="/bbs/board.php?bo_table=facilities&wr_id=2"><img src="/theme/basic/img/main/main_btn_02.png" /></a></li>
-                   <li><a href="/bbs/board.php?bo_table=notice"><img src="/theme/basic/img/main/main_btn_03.png" /></a></li>
-                </ul>			
+                </li>
+            </ul>
+        
+        </li>
+        <li class="timetable">
+        	<h2><img src="/theme/basic/img/main/h2_02.png" /></h2>
+            <ul>
+            	<li>
+                	<a href="/bbs/content.php?co_id=schedule_01"><img src="/theme/basic/img/main/main_contents_02.png" /></a>                	
+                </li>
+            </ul>
+        
+        </li>
+        <li class="councelling">
+        	<h2><img src="/theme/basic/img/main/h2_03.png" /></h2>
+            <ul>
+            	<li>상담신청을 남겨주시면 빠른연락드리도록 하겠습니다.</li>
+                <li>
+                	<form name="councelling"  method="post">
+                    <input type="hidden" name="url" value="">
+                
+                    <fieldset id="councelling">
+                        <legend>문자상담</legend>
+                        <label for="login_id" class="name">고객명</label>
+                        <input type="text" name="name" id="name" required class="f" size="20" maxLength="20">
+                        <label for="login_id" class="mobile_num">연락처</label>
+                        <input type="text" name="mobile_num" id="mobile_num" required class="f" size="20" maxLength="20">
+                        
+                    </fieldset>
+                    
+                    <p class="btn_submit">상담신청</p>
+                </li>
+            </ul>
+        
+        </li>
+        
+    
+    </ul>
 
-    		</div>
-            </td>
-        </tr>
-    </table>
+
+    
     	
 	<div style="border-top:1px dashed #333; margin:20px 0 20px; display:none"></div>
     <table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">

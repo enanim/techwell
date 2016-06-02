@@ -30,12 +30,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
             아직 회원이 아니시라면 회원으로 가입 후 이용해 주십시오.
         </p>
         <div>
-            <a href="<?php echo G5_BBS_URL ?>/password_lost.php" target="_blank" id="login_password_lost" class="btn02">아이디 비밀번호 찾기</a>
+            <a href="<?php echo G5_BBS_URL ?>/password_lost.php" target="_blank" id="login_password_lost" class="btn03">아이디 비밀번호 찾기</a>
             <a href="./register.php" class="btn01">회원 가입</a>
         </div>
     </aside>
 
-    <div class="btn_confirm">
+    <div class="btn_confirm_02">
         <a href="<?php echo G5_URL ?>/">메인으로 돌아가기</a>
     </div>
 

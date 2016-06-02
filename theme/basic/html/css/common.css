@@ -13,7 +13,7 @@ select { vertical-align:middle; height:1.7em; min-height:24px; line-height:1.7em
 input[type="radio"], input.type-radio, input[type="checkbox"], input.type-checkbox  { border:none; }
 textarea { border:1px solid #ccc; margin:0; padding:3px; }
 form { margin:0; padding:0 }
-body { font-family:'nanumgothic', 'NanumGothic', 'Nanum Gothic' !important; font-size:100%; line-height:120%; /*color:#333*/ }
+body { font-family:'nanumgothic', 'NanumGothic', 'Nanum Gothic' !important; font-size:100%; line-height:120%; /*color:#333*/ background:#333;}
 div, li, p, span, a { font-size:100%; font-family:'nanumgothic', 'NanumGothic', 'Nanum Gothic' !important }
 
 label { cursor:pointer; }

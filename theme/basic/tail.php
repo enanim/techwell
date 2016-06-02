@@ -23,17 +23,19 @@ if(G5_COMMUNITY_USE === false) {
 <div id="ft">
     <div id="ft_catch">
 		<div class="foot_nav" style="text-align:center">
-        	<span style="margin-right:40px;"><a href="/bbs/content.php?co_id=about01" >회사소개</a></span>
-            <span style="margin-right:40px;"><a href="/bbs/content.php?co_id=product" >제품소개</a></span>
-            <span style="margin-right:40px;"><a href="/bbs/board.php?bo_table=facilities&wr_id=2" >시설현황</a></span>
-            <span style="margin-right:40px;"><a href="/bbs/write.php?bo_table=onlineqna" >온라인문의</a></span>
-            <span style="margin-right:40px;"><a href="/bbs/write.php?bo_table=onlineqna" >온라인문의</a></span>
-            <span style="margin-right:40px;"><a href="/bbs/board.php?bo_table=notice" >테크웰소식</a></span>
+        	<span style="margin-right:40px;"><a href="/bbs/content.php?co_id=about02" >협회소개</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/content.php?co_id=schedule_01" >스케쥴</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/content.php?co_id=about04" >찾아오시는 길</a></span>
+            <span style="margin-right:40px;"><a href="/bbs/board.php?bo_table=notice" >공지사항</a></span>
+            
 
 		</div>
-		<div class="foot_logo"><img src="/theme/basic/img/foot_logo.png" alt="pishon" /></div>
+		<div class="foot_logo"><img src="/theme/basic/img/foot_logo.png" alt="m2gym&amp;spinning" /></div>
 		<div id="ft_copy">
-			<img src="/theme/basic/img/foot_copyright.png" />
+		경기도 원주시 삼보로 2101, 6층 603, 604호 (반곡동, 서영예비뉴파크 2차) ｜ TEL : 033.734.1114 ｜ E-mail : mm2gym@gmail.com<br>
+        사업자등록번호 : 541-32-00216 &nbsp; &nbsp;｜ &nbsp;대표 : 심승학  &nbsp;｜ &nbsp;정보책임자 : 심승학<br>
+        © 2016 M2GYM&amp;SPINNING. all rights reserved.<br>
+
 		</div>
 	</div>
 </div>

@@ -39,7 +39,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="/theme/basic/img/logo.png" alt="PISHON" /></a>
+            <a href="<?php echo G5_URL ?>"><img src="/theme/basic/img/main_logo.png" alt="m2gym&amp;spinning" /></a>
         </div>
 
         <fieldset id="hd_sch">
@@ -84,13 +84,16 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <ul id="tnb" style="z-index:1000">
             <?php if ($is_member) {  ?>
             <?php if ($is_admin) {  ?>
-            <li><a href="<?php echo G5_ADMIN_URL ?>"><b>admin</b></a></li>
+            <li><a href="<?php echo G5_ADMIN_URL ?>"><b>관리자</b></a></li>
             <?php }  ?>
-            <li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">edit</a></li>
-            <li><a href="<?php echo G5_BBS_URL ?>/logout.php">logout</a></li>
+            <li><a href="http://www.m2gym.kr">홈</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">마이페이지</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
             <?php } else {  ?>
-            <li><a href="<?php echo G5_BBS_URL ?>/register.php">join</a></li>
-            <li><a href="<?php echo G5_BBS_URL ?>/login.php"><b>login</b></a></li>
+            <li><a href="http://www.m2gym.kr">홈</a></li>
+            <li><a href="#" onclick="try{window.external.AddFavorite('http://www.m2gym.kr','m2gym&amp;spinning')}catch(e){alert('이 브라우저에서는 즐겨찾기 기능을 사용할 수 없습니다.\n크롬에서는 Ctrl 키와 D 키를 동시에 눌러서 즐겨찾기에 추가할 수 있습니다.')}; return false;">즐겨찾기추가</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/register.php">회원가입</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/login.php"><b>로그인</b></a></li>
             <?php }  ?>
             <!--li><a href="<?php echo G5_BBS_URL ?>/faq.php">FAQ</a></li>
             <li><a href="<?php echo G5_BBS_URL ?>/qalist.php">1:1문의</a></li>
@@ -101,11 +104,14 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <?php } ?>
         </ul>
 		
-        <!--
+        
+        <!-- SNS 시작 -->
+
 		<div class="sns_wrap"><a href="http://www.facebook.com/pishonent" target="_blank"><img src="/theme/basic/img/top_sns01.png" /></a><a href="https://www.youtube.com/channel/UC_PahAlEEHLf8kKKO6i13jA" target="_blank"><img src="/theme/basic/img/top_sns02.png" /></a><a href="https://twitter.com/PishonSound" target="_blank"><img src="/theme/basic/img/top_sns03.png" /></a>
 		</div>
-        -->
-        
+
+         <!-- SNS 시작 -->
+         
         <menu id="menu_container">
             <div id="menu-wrapper">
                 <div class="container" style="margin:0 auto;">
@@ -246,17 +252,23 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <div id="page_wrap">
     
 <!-- 콘텐츠 시작 -->
-<?php if ($co_id == 'about01' OR $co_id == 'about02' OR $co_id == 'about03' OR $co_id == 'about04' OR $co_id == 'about05' OR $co_id == 'about06' OR $co_id == 'facilities' OR $co_id == 'product' OR $bo_table == 'notice' OR $bo_table == 'facilities' OR $bo_table == 'facilities' OR $bo_table == 'notice' OR $bo_table == 'onlineqna' OR $kLeft == 1) {?>
+<?php if ($co_id == 'about01' OR $co_id == 'about02' OR $co_id == 'about04' OR $co_id == 'program' OR $co_id == 'schedule_01' OR $bo_table == 'center_img' OR $bo_table == 'notice' OR $bo_table == 'event' OR $bo_table == 'qna' OR $bo_table == 'councelling' OR $kLeft == 1) {?>
         <div class="visual_on <?php echo $co_id == 'about01' ? 'visual_on_01' :''?>"></div>
 		<div class="visual_on <?php echo $co_id == 'about02' ? 'visual_on_01' :''?>"></div>
-		<div class="visual_on <?php echo $co_id == 'about03' ? 'visual_on_01' :''?>"></div>
 		<div class="visual_on <?php echo $co_id == 'about04' ? 'visual_on_01' :''?>"></div>
-		<div class="visual_on <?php echo $co_id == 'about05' ? 'visual_on_01' :''?>"></div>
-		<div class="visual_on <?php echo $co_id == 'about06' ? 'visual_on_01' :''?>"></div>
-		<div class="visual_on <?php echo $co_id == 'product' ? 'visual_on_02' :''?>"></div>
-		<div class="visual_on <?php echo $bo_table == 'facilities' ? 'visual_on_05' :''?>"></div>
-		<div class="visual_on <?php echo $bo_table == 'notice' ? 'visual_on_03' :''?>"></div>
-		<div class="visual_on <?php echo $bo_table == 'onlineqna' ? 'visual_on_04' :''?>"></div>
+        <div class="visual_on <?php echo $bo_table == 'center_img' ? 'visual_on_01' :''?>"></div>
+        
+        
+		<div class="visual_on <?php echo $co_id == 'program' ? 'visual_on_02' :''?>"></div>
+        
+		<div class="visual_on <?php echo $co_id == 'schedule_01' ? 'visual_on_03' :''?>"></div>
+
+		<div class="visual_on <?php echo $bo_table == 'notice' ? 'visual_on_04' :''?>"></div>
+		<div class="visual_on <?php echo $bo_table == 'event' ? 'visual_on_04' :''?>"></div>
+        <div class="visual_on <?php echo $bo_table == 'qna' ? 'visual_on_04' :''?>"></div>
+        
+        <div class="visual_on <?php echo $bo_table == 'councelling' ? 'visual_on_01' :''?>"></div>
+        
         
 <?php }?>
 <div id="<?php echo defined("_INDEX_") ? 'main_wrapper' : 'wrapper'?>">

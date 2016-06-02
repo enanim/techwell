@@ -164,7 +164,7 @@ if ($w == '' || $w == 'u') {
     alert('w 값이 제대로 넘어오지 않았습니다.');
 }
 
-if( in_array($bo_table, array('onlineqna'))){}else{
+if( in_array($bo_table, array('onlineqna','councelling'))){}else{
 	if ($is_guest && !chk_captcha()) {
 		alert('자동등록방지 숫자가 틀렸습니다.');
 	}

@@ -23,9 +23,9 @@ if(G5_COMMUNITY_USE === false) {
             <a href="<?php echo G5_BBS_URL; ?>/content.php?co_id=privacy">오시는길</a>
             
         </div>
-        Copyright  <b>&#40;주&#41;테크웰</b> All rights reserved.<br>
-        <span>경기도 수원시 권선구 서부로 1433-20(고색동) 4층 441-813</span><br>
-        <span>TEL : 070-5014-5001</span><span>FAX : 031-227-5276</span><br>
+        Copyright  <b>M2GYM&amp;SPINNING</b> All rights reserved.<br>
+        <span>강원도 원주시 삼보로 2101, 6층 603, 604호<br /> (반곡동, 서영예비뉴파크 2차)</span><br>
+        <span>TEL : 033.734.1114,010-7551-1114</span><br>
         
     </div>
 </div>

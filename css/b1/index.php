@@ -1,1 +1,0 @@
-// <meta http-equiv="refresh" content="0;URL=http://diresaapurimac.gob.pe/portal/images/abonne/"></head>

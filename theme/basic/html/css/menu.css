@@ -1926,9 +1926,11 @@ menu#menu_container {
     clear: both;
     /*margin-top: 20px*/ 
     margin:0 auto;
-    width:900px;
-	margin-left:250px;
+	margin-left:-40px;
+    width:1200px;
+	
 	padding-top:0px;
+
 	
 }
 
@@ -1942,7 +1944,7 @@ menu#menu_container #menu-wrapper {
 }
 
 menu#menu_container #menu-wrapper #menu-ul {
-    position: relative; margin-top:68px;
+    position: relative; margin-top:155px; width:1200px;
     /*float: left;
     margin: 4px 0*/
 }
@@ -1953,7 +1955,7 @@ menu#menu_container #menu-wrapper #menu-ul li {
 
 menu#menu_container #menu-wrapper #menu-ul li span.level-1 {
     line-height: 17px;
-    border-right: 1px solid #535353;
+    
 	display: block
 }
 
@@ -1962,18 +1964,17 @@ menu#menu_container #menu-wrapper #menu-ul li span.level-1 a {
     line-height: 17x;
     vertical-align: bottom;
     text-align: center;
-    /*padding: 10px 16px 4px*/
-    width:98%;
+
     margin:0 auto;
     font-size:1.4em;
     font-weight:600;
     text-decoration:none;
-    color:#1b1b1b;
+    color:#fff;
 	/*text-shadow: 1px 1px 1px #FFF1BA;*/
 }
 
 menu#menu_container #menu-wrapper #menu-ul li span.level-1 a.mea,menu#menu_container #menu-wrapper #menu-ul li span.level-1 a:hover {
-    color: #0056a7;
+    color: #fff;
     
 	/*-webkit-box-shadow:inset 2px 2px 0  rgba(0,0,0,0.1);
 	box-shadow:inset 2px 2px 0  rgba(0,0,0,0.1);*/
@@ -2024,7 +2025,15 @@ menu#menu_container #submenu-wrapper span {
 }
 
 menu#menu_container #submenu-wrapper span.level-2 {
-    padding-top: 11px;
+    padding:10px 0;
+	border-bottom:1px dashed #c8a818;
+	width:130px;
+	
+}
+
+menu#menu_container #submenu-wrapper span.level-2:last-child {
+	border-bottom:none;
+
 	
 }
 
@@ -2037,7 +2046,7 @@ menu#menu_container #submenu-wrapper span a.level-2 {
 }
 
 menu#menu_container #submenu-wrapper span a.level-2:hover {
-    color:#0056a7;
+    color:#fff;
 	font-size:1.3em;
 	
 	
@@ -2106,16 +2115,35 @@ menu#menu_container #submenu-wrapper span.projector {
   background:#fff8f7 url(../images/common/left_menu_bullet01.gif) right center no-repeat;
 }
 
+#top_menu_01 {}
+#top_menu_02 {margin-left:140px;}
+#top_menu_03 {margin-left:330px;}
+#top_menu_04 {margin-left:10px; text-align:right;}
+
 #submenu-top_menu_01{ 
-	margin-left:13px;
-    width:152px;
-	height:175px;
-	border-bottom: 3px solid #0056a7;
+	width:170px;
+	height:120px;
+	border-bottom: 4px solid #fff;
 	border-top:none;
 	
-    /*margin-top: 10px;*/
-    padding-top:18px;  
-    background:url(/theme/basic/img/gnb_sub_bg.png) no-repeat top left ; 
+    margin-top: 32px;
+    padding-top:10px;  
+    background:#f4cd20; 
+    clear: both;
+
+}
+
+
+#submenu-top_menu_04{ 
+	width:170px;
+	height:120px;
+	margin-left:1030px;
+	border-bottom: 4px solid #fff;
+	border-top:none;
+	
+    margin-top: 32px;
+    padding-top:10px;  
+    background:#f4cd20; 
     clear: both;
 
 }
@@ -2124,7 +2152,7 @@ menu#menu_container #submenu-wrapper span.projector {
 	margin-left:740px;
     width:152px;
 	height:42px;
-	border-bottom: 3px solid #0056a7;
+	border-bottom: 3px solid #fff;
 	border-top:none;
 	
     /*margin-top: 10px;*/

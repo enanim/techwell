@@ -44,13 +44,14 @@ $(function() {
 			$('#slider_bullet').append('<a href="#" '+active+'></a>');
 		}
 	$(window).bind('load resize',function(){
-		var ww = $('#main_banner').width(1200); //width 숫자 넣어주기
+		var ww = $('#main_banner').width();
 		$('#main_banner').css({marginLeft:-0.5*ww});
-		
+
 		$('#slider img').width(ww);
 		var ih = $('#slider img').height();
-		$('#main_banner,#slider_controller').height(ih);
-		$('#slider_controller a').css({marginTop:(ih*0.5)-38});
+		$('#main_banner').height(ih);
+        $('#prev_btn,#next_btn').css('top',Number(Math.ceil(Number( ih / 2 ) -  Number( $('#prev_btn').height() / 2 ))));
+        $('#main_banner_height').height(ih);
 	});
 	$('#slider_bullet a').click(function(){
 		var index = $(this).index();
@@ -80,7 +81,7 @@ $(function() {
 
 	/*$('#lnb>ul>li>a').click(function(){
 		var $sub = $(this).parent().find('ul');
-		var $other = $(this).parent().siblings();	
+		var $other = $(this).parent().siblings();
 		if($sub.size()>0){
 			$sub.slideDown();
 			$other.find('ul').slideUp();

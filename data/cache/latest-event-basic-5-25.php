@@ -1,0 +1,83 @@
+<?php
+if (!defined('_GNUBOARD_')) exit;
+$bo_subject='이벤트';
+$list=array (
+  0 => 
+  array (
+    'wr_id' => '1',
+    'wr_num' => '-1',
+    'wr_reply' => '',
+    'wr_parent' => '1',
+    'wr_is_comment' => '0',
+    'wr_comment' => '0',
+    'wr_comment_reply' => '',
+    'ca_name' => '',
+    'wr_option' => 'html1',
+    'wr_subject' => '[혁신점  5월30일,31일,6월1일] 오픈기념이벤트',
+    'wr_content' => '<div><img src="/theme/basic/img/sub/contents/sub_event_20160524.jpg"></div>',
+    'wr_link1' => '',
+    'wr_link2' => '',
+    'wr_link1_hit' => '0',
+    'wr_link2_hit' => '0',
+    'wr_hit' => '115',
+    'wr_good' => '0',
+    'wr_nogood' => '0',
+    'mb_id' => 'admin',
+    'wr_password' => '*BCDB46F9759BC3C7C2679D4E81145B53EE616059',
+    'wr_name' => 'm2gym&spinning',
+    'wr_email' => 'proit_pishonenter@pishonenter.proit.gethompy.com',
+    'wr_homepage' => '',
+    'wr_datetime' => '2016-05-24 11:18:22',
+    'wr_file' => '0',
+    'wr_last' => '2016-05-24 11:18:22',
+    'wr_ip' => '14.47.217.102',
+    'wr_facebook_user' => '',
+    'wr_twitter_user' => '',
+    'wr_1' => '',
+    'wr_2' => '',
+    'wr_3' => '',
+    'wr_4' => '',
+    'wr_5' => '',
+    'wr_6' => '',
+    'wr_7' => '',
+    'wr_8' => '',
+    'wr_9' => '',
+    'wr_10' => '',
+    'is_notice' => false,
+    'subject' => '[혁신점  5월30일,31일,6월1일] 오픈기…',
+    'comment_cnt' => '',
+    'datetime' => '2016-05-24',
+    'datetime2' => '05-24',
+    'last' => '2016-05-24',
+    'last2' => '05-24',
+    'name' => '<span class="sv_member">m2gym&spinning</span>',
+    'reply' => 0,
+    'icon_reply' => '',
+    'icon_link' => '',
+    'ca_name_href' => 'http://m2gym.kr/bbs/board.php?bo_table=event&amp;sca=',
+    'href' => 'http://m2gym.kr/bbs/board.php?bo_table=event&amp;wr_id=1',
+    'comment_href' => 'http://m2gym.kr/bbs/board.php?bo_table=event&amp;wr_id=1',
+    'icon_new' => '',
+    'icon_hot' => '<img src="http://m2gym.kr/theme/basic/mobile/skin/latest/basic/img/icon_hot.gif" alt="인기글">',
+    'icon_secret' => '',
+    'link' => 
+    array (
+      1 => NULL,
+      2 => NULL,
+    ),
+    'link_href' => 
+    array (
+      1 => 'http://m2gym.kr/bbs/link.php?bo_table=event&amp;wr_id=1&amp;no=1',
+      2 => 'http://m2gym.kr/bbs/link.php?bo_table=event&amp;wr_id=1&amp;no=2',
+    ),
+    'link_hit' => 
+    array (
+      1 => 0,
+      2 => 0,
+    ),
+    'file' => 
+    array (
+      'count' => '0',
+    ),
+  ),
+)?>

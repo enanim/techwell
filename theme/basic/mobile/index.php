@@ -28,10 +28,10 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="/theme/basic/img/mobile/m_logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
+            <a href="<?php echo G5_URL ?>"><img src="/theme/basic/img/main_logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
 
-        <button type="button" id="gnb_open" class="hd_opener">메뉴<span class="sound_only"> 열기</span></button>
+        <button type="button" id="gnb_open" class="hd_opener"><img src="/theme/basic/img/mobile/btn_menu.png" /><span class="sound_only"> 열기</span></button>
 
         <div id="gnb" class="hd_div">
             <ul id="gnb_1dul">
@@ -121,6 +121,15 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
         <script>
         $(function () {
+			$('#gnb_open,#gnb_close').on('click',function (){
+                if($('#gnb').is(':hidden') == true){
+                    $('#container').css('z-index',-1);
+                }else{
+                    $('#container').css('z-index',1);
+                }
+            });
+			
+			
             $(".hd_opener").on("click", function() {
                 var $this = $(this);
                 var $hd_layer = $this.next(".hd_div");
@@ -174,9 +183,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         
     </div>
     <div id="container">
-    	<a href="/bbs/content.php?co_id=product"><img src="/theme/basic/img/mobile/mobile_contents01.png" /></a>
-        <a href="/bbs/board.php?bo_table=facilities&wr_id=2"><img src="/theme/basic/img/mobile/mobile_contents02.png" /></a>
-        <a href="/bbs/content.php?co_id=about01"><img src="/theme/basic/img/mobile/mobile_contents03.png" /></a>
+    	<a href="/bbs/board.php?bo_table=notice"><img src="/theme/basic/img/mobile/mobile_contents01.png" /></a>
+        <a href="/bbs/content.php?co_id=schedule_01"><img src="/theme/basic/img/mobile/mobile_contents02.png" /></a>
+        <a href="/bbs/board.php?bo_table=event&wr_id=1"><img src="/theme/basic/img/mobile/mobile_contents03.png" /></a>
         <?php if ((!$bo_table || $w == 's' ) && !defined("_INDEX_")) { ?><div id="container_title"><?php echo $g5['title'] ?></div><?php } ?>
         
 

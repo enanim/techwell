@@ -28,12 +28,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 
         <label for="confirm_mb_password">비밀번호<strong class="sound_only">필수</strong></label>
         <input type="password" name="mb_password" id="confirm_mb_password" required class="required frm_input" size="15" maxLength="20">
-        <input type="submit" value="확인" id="btn_submit" class="btn_submit">
+        <input type="submit" value="확인" id="bnt_login" class="bnt_login">
     </fieldset>
 
     </form>
 
-    <div class="btn_confirm">
+    <div class="btn_confirm_02">
         <a href="<?php echo G5_URL ?>">메인으로 돌아가기</a>
     </div>
 
